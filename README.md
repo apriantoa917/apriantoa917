@@ -4,7 +4,7 @@
 I'm an `final year` Information System Students at [Universitas Dinamika](https://www.dinamika.ac.id/) and now I'm following the program [`Google Bangkit 2022`](https://grow.google/intl/id_id/bangkit/). I have big passion working with Android Developement, previously i involved in the development of android applications on projects such as :
 - Develop Itung IP Android Apps : GPA (IPK) Calculator for students | [Source](https://docs.google.com/document/d/12dFP1HIC-gum7VhZL_UeZFPUADFUhrMj/edit?usp=sharing&ouid=107161040614281174089&rtpof=true&sd=true)
 - Develop Webview System & Authentication with Google for Commercial Apps | [Source](https://play.google.com/store/apps/details?id=com.mitrabangunan.mitrabangunanstore)
-- Develop Si Dedi Apps : Naive Bayes Classification to Detect Diabetes disease
+- Develop Si Dedi Apps : Naive Bayes Classification to Detect Diabetes disease | [Repository](https://github.com/apriantoa917/android-UAS_SPK-SiDeDi)
 - Develop Github User Search (Dicoding BFAA Submission) | [Repository](https://github.com/apriantoa917/android-dicoding-BFAA)
 - Currently Develop Picnicker Android Apps : Tourism ticketing apps, associated with my thesis
 
