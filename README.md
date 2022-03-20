@@ -50,3 +50,4 @@ I'm an `final year` Information System Students at [Universitas Dinamika](https:
 [![](http://img.shields.io/badge/-Twitter-lightgrey?logo=twitter&style=flat&logoColor=white&color=1DA1F2)](https://twitter.com/apriantoa917) 
 [![](http://img.shields.io/badge/-Instagram-lightgrey?logo=instagram&style=flat&logoColor=white&color=E4405F)](https://www.instagram.com/apriantoa917/?hl=en)
 [![](http://img.shields.io/badge/-YouTube-lightgrey?logo=youtube&style=flat&logoColor=white&color=FF0000)](https://www.youtube.com/channel/UCdTsC2MiXo0T0PMjpAIaaAQ) 
+[![](http://img.shields.io/badge/-Gitlab-lightgrey?logo=gitlab&style=flat&logoColor=white&color=gray)](https://gitlab.com/users/apriantoa917) 
