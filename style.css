@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;0,700;1,800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+body {
+    font-family: 'Source Code Pro', monospace;
+    background-color: #F5E1C0;
+    user-select: none;
+}
+
+ul>li>p>a {
+    text-decoration: none;
+}
+
+a {
+    color: #794b0b;
+}
+
+.list-group-item:hover {
+    background-color: #e2c69f;
+    color: #583606;
+    cursor: pointer;
+}
+
+.dashed-top {
+    border-top: 2px #B07219 dashed;
+}
+
+.container-blog:hover {
+    background-color: #e2c69f;
+}
+
+.tag-blog {
+    border: 1px #583606 solid;
+    margin-right: 5px;
+}
+
+.tag-blog:hover {
+    background-color: #583606;
+    color: white;
+    cursor: default;
+}
+
+.unstyle-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.text-brown {
+    color: #583606;
+}
+
+span {
+    display: inline-block;
+}
