@@ -22,7 +22,13 @@
         <div class="container-fluid">
             <h2 class="mt-3">✒️ Blog</h2>
             <hr>
-            <div id="container-blog"></div>
+            <div id="container-blog">
+                <div id="loading" class="text-center">
+                    <div class="spinner-border m-3 loading" role="status">
+                        <span class="sr-only"></span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div data-include="./footer.html"></div>
     </div>
@@ -59,7 +65,6 @@
                     console.log(res);
 
                     // print every row data from JSON
-                    var init = 0
                     res.forEach(element => {
                         pubDate = new Date(element.pubDate)
                         date = getFormattedDate(pubDate)
@@ -68,13 +73,9 @@
                         tags.forEach(child => {
                             pubTags += `<span class="tag-blog p-1">#${child}</span>`
                         })
-                        if (init == 0) {
-                            content = `<div class="container-blog py-3" onclick="window.location.href='${element.link}'"><div><h4>${element.title}</h4><p class="mt-3">${pubTags}</p><small class="text-brown">${date}</small></div></div>`
-                            init++
-                        } else {
-                            content = `<div class="container-blog py-3 dashed-top" onclick="window.location.href='${element.link}'"><div><h4>${element.title}</h4><p>${pubTags}</p><small class="text-brown">${date}</small></div></div>`
-                        }
+                        content = `<div class="container-blog p-3 dashed-top my-3" onclick="window.location.href='${element.link}'"><div><h4>${element.title}</h4><p class="mb-1">Tags : ${pubTags}</p><small class="text-brown">Diposting pada ${date}</small></div></div>`
                         $("#container-blog").append(content);
+                        $('#loading').hide()
                     });
                 });
         }
