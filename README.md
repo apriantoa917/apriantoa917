@@ -6,7 +6,7 @@ I'm an `final year` Information System Students at [Universitas Dinamika](https:
 - Develop Webview System & Authentication with Google for Commercial Apps | [Source](https://play.google.com/store/apps/details?id=com.mitrabangunan.mitrabangunanstore)
 - Develop Si Dedi Apps : Naive Bayes Classification to Detect Diabetes disease | [Repository](https://github.com/apriantoa917/android-UAS_SPK-SiDeDi)
 - Develop Github User Search (Dicoding BFAA Submission) | [Repository](https://github.com/apriantoa917/android-dicoding-BFAA)
-- Currently Develop Picnicker Android Apps : Tourism ticketing apps, associated with my thesis
+- Currently Develop Picnicker Android Apps : Tourism ticketing apps, associated with my thesis | [Website](https://picnicker.id/link)
 
 ## Tools & Languages
  <a href="https://developer.android.com/studio/">
