@@ -42,6 +42,7 @@ I'm an `final year` Information System Students at [Universitas Dinamika](https:
 <a href="https://github.com/apriantoa917">
   <img height="170em" src="https://github-readme-stats.vercel.app/api?username=apriantoa917&theme=moltack&show_icons=true" align="left" />
   <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apriantoa917&theme=moltack&layout=compact" />
+  <img height="170em" src="https://github-readme-streak-stats.herokuapp.com?user=apriantoa917&theme=solarized-light&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&fire=DD0000&background=F5E1C0&sideNums=982B44&sideLabels=584139&currStreakLabel=584139&ring=B58901&dates=B58901&currStreakNum=584139" />
 </a>
 
 ## Get in touch with me
