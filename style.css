@@ -45,6 +45,11 @@ a {
     color: #794b0b;
 }
 
+a:hover {
+    color: #B07219;
+    background-color: #e2c69f;
+}
+
 hr {
     border: 2px #583606 solid;
 }
@@ -77,6 +82,18 @@ hr {
     border: 2px #583606 solid;
     color: #583606;
     border-radius: 0 !important;
+}
+
+.btn-menu {
+    color: #583606;
+    border: 3px #583606 solid;
+    border-radius: 0%;
+    background-color: #e2c69f;
+}
+
+.btn-menu:hover {
+    cursor: pointer;
+    background-color: white;
 }
 
 .container-blog:hover {
@@ -114,6 +131,10 @@ span {
 
 .bg-antique {
     background-color: #e2c69f;
+}
+
+.text-antique {
+    color: #583606;
 }
 
 .modal-content {
