@@ -48,8 +48,12 @@ I'm an `final year` Information System Students at [Universitas Dinamika](https:
 
 ## Get in touch with me
 
-[![](http://img.shields.io/badge/-LinkedIn-lightgrey?logo=linkedin&style=flat&logoColor=white&color=0A66C2)](https://www.linkedin.com/in/apriantoa917) 
-[![](http://img.shields.io/badge/-Twitter-lightgrey?logo=twitter&style=flat&logoColor=white&color=1DA1F2)](https://twitter.com/apriantoa917) 
-[![](http://img.shields.io/badge/-Instagram-lightgrey?logo=instagram&style=flat&logoColor=white&color=E4405F)](https://www.instagram.com/apriantoa917/?hl=en)
-[![](http://img.shields.io/badge/-YouTube-lightgrey?logo=youtube&style=flat&logoColor=white&color=FF0000)](https://www.youtube.com/channel/UCdTsC2MiXo0T0PMjpAIaaAQ) 
-[![](http://img.shields.io/badge/-Gitlab-lightgrey?logo=gitlab&style=flat&logoColor=white&color=gray)](https://gitlab.com/users/apriantoa917) 
+
+[![](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://apriantoa917.github.io/) 
+[![](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@apriantoa917) 
+[![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aprianto@picnicker.id) 
+[![](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/apriantoa917) 
+[![](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/apriantoa917) 
+[![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/apriantoa917/?hl=en)
+[![](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCdTsC2MiXo0T0PMjpAIaaAQ) 
+[![](https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white)](https://gitlab.com/users/apriantoa917) 
