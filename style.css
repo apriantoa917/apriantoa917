@@ -4,7 +4,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: #F5E1C0;
-    user-select: none;
+    /* user-select: none; */
 }
 
 body::-webkit-scrollbar {
@@ -95,7 +95,7 @@ hr {
     color: #583606;
     border: 3px #583606 solid;
     border-radius: 0%;
-    background-color: #e2c69f;
+    background-color: #583606;
 }
 
 .btn-menu:hover {
@@ -106,10 +106,24 @@ hr {
 .container-blog:hover {
     background-color: #e2c69f;
     cursor: pointer;
+    color: white;
 }
 
 .tag-blog {
     border: 1px #583606 solid;
+    margin-right: 5px;
+}
+
+.button-brown {
+    padding: 10px !important;
+    background-color: #583606;
+    margin-right: 5px;
+    color: white;
+}
+
+.button-brown:hover {
+    border: 2px #583606 solid;
+    background-color: #B07219;
     margin-right: 5px;
 }
 
