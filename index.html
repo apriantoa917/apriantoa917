@@ -60,8 +60,7 @@
             <!-- CONTACTS -->
             <p><span class="h3"><i class="bi bi-envelope"></i> CONTACTS</span> {Let's connect with me}</p>
             <div class="p-3 card-focus" style="background-color: #fff1e06b; border-radius: 8px !important; border: 2px solid #e2c69f !important;">
-                <a href="https://github.com/apriantoa917"><span class="button-brown my-1"><i
-                            class="bi bi-github"></i>
+                <a href="https://github.com/apriantoa917"><span class="button-brown my-1"><i class="bi bi-github"></i>
                         Github</span></a>
                 <a href="https://linkedin.com/in/apriantoa917"><span class="button-brown my-1"><i
                             class="bi bi-linkedin"></i>
@@ -77,8 +76,21 @@
 
 
             <!-- PROJECTS -->
-            <p><span class="h3"><i class="bi-code-square"></i> PROJECT SHOWCASE</span> {Portfolio Projects}</p>
-            <div id="listProject" class="row row-cols-1 row-cols-md-2 g-4"> </div>
+            <p><span class="h3"><i class="bi-code-square"></i> PROJECT SHOWCASE</span> {Project Portfolios}</p>
+            <p class="button-group-tech-stack">Filter Project :
+                <span class="button-brown my-1 button-tech-stack button-all" onclick="filterProjectType('all')"><i class="bi bi-boxes"></i>
+                    All</span>
+                <span class="button-brown my-1 button-tech-stack button-android" onclick="filterProjectType('android')"><i
+                        class="bi bi-phone"></i>
+                    Android</span>
+                <span class="button-brown my-1 button-tech-stack button-website" onclick="filterProjectType('website')"><i
+                        class="bi bi-globe2"></i>
+                    Website</span>
+                <span class="button-brown my-1 button-tech-stack button-design" onclick="filterProjectType('design')"><i
+                        class="bi bi-pen"></i>
+                    Design</span>
+            </p>
+            <div id="listProject" class="row row-cols-1 row-cols-md-2 g-4"></div>
             <!-- END OF PROJECTS -->
 
 
@@ -140,8 +152,10 @@
     <script>
         $(function() {
 
+            // after page reload -> reload all project data from js data file
             data.forEach(function(project, index) {
-                const template = `<div class="col">
+                var techStack
+                const template = `<div class="col project-card ` + project.techStack + `">
                     <div class="card h-100 card-focus">
                         <div class="card-body">
                             <h5 class="card-title"> ` + project.title + ` (` + project.year + `) 
@@ -156,6 +170,7 @@
             });
         });
 
+        // show modal project detail by spesific data
         function openModalProject(index) {
             var project = data[index]
             $("#modalProject-projectTitle").html(project.title + " (" + project.year + ")")
@@ -173,8 +188,26 @@
             $('#modalProject').modal('show');
         }
 
+        // when modal project detail opened -> zoom image redirect to file path location
         function zoomImage(url) {
             window.open(url, '_blank').focus();
+        }
+
+        // init filter project type to all
+        filterProjectType("all")
+
+        // show spesific project type
+        function filterProjectType(projectStack) {
+            container = $(".project-card")
+            if (projectStack === "all") {
+                container.show()
+            } else {
+                container.hide()
+                container.filter('.' + projectStack).show()
+            }
+            $(".button-tech-stack").removeClass("active")
+            $(".button-group-tech-stack .button-" + projectStack).addClass("active")
+
         }
     </script>
 

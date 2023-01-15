@@ -19,6 +19,7 @@ const data = [
         overview: `<p>Insul.in is Developed apps made by Bangkit Academy 2022 Team to give impact on Medical Issue. In Insul.in you can check initial screening of the potential risk of Diabetes with answering several question (combined with Machine Learning) to prevents worst condition based the result.
     </p>`,
         tech: "Kotlin, MVVM, Firebase, Google Maps API, Lottie Files, Retrofit, Google Console Project",
+        techStack: "android",
         image: [
             "https://user-images.githubusercontent.com/47800225/173065444-e2e1636f-5052-40b2-b204-d85d8bca50fd.png",
             "https://user-images.githubusercontent.com/47800225/173065409-04795ac4-583c-437f-afb5-e9a0189a9d9a.png",
@@ -37,6 +38,7 @@ const data = [
         <b><a href="https://www.dicoding.com/academies/335">"Belajar Dasar UX Design"</a></b> as final submission
     </p>`,
         tech: "Figma, Prototyping, UX Research",
+        techStack: "design",
         image: ["https://www.dropbox.com/s/nhpz5gdnnnhs5q8/Picnicker.png?raw=1"],
         roles: "UI / UX Designer",
         sneakPeak: `<p>Play prototype at
@@ -56,6 +58,7 @@ const data = [
         <b><a href="https://www.dicoding.com/academies/352">"Belajar Pengembangan Aplikasi Android
                 Intermediate"</a></b> as final submission</p>`,
         tech: "Kotlin, Retrofit2 Library, Remote Mediator & Paging3 (Offline-Online Mechanism & Infinite Scroll data, like instagram), LottieFiles (Animation), Google Maps API",
+        techStack: "android",
         image: ["https://www.dropbox.com/s/vosrq0gxt1atcwu/Dico%20Story.png?raw=1"],
         roles: "Fullstack Engineer",
         sneakPeak: `<p>See Repository at
@@ -70,6 +73,7 @@ const data = [
         overview: `<p>My Github is a github user search app developed using Github API to retrieve user search & user info details. In app you can like specific user locally & you can change theme appereance. This project is related to Dicoding Course <b><a href="https://www.dicoding.com/academies/14">"Belajar
         Fundamental Aplikasi Android (BFAA)"</a></b> as final submission</p>`,
         tech: "Kotlin, Retrofit2 Library, Room Database (liked user), Data Store (theme appereance)",
+        techStack: "android",
         image: ["https://www.dropbox.com/s/g7ysfs8wp1cvngc/My%20Github.png?raw=1"],
         roles: "Fullstack Engineer",
         sneakPeak: `<p>See Repository at
@@ -84,6 +88,7 @@ const data = [
         overview: `<p>Angket is a website for the BAAK Dinamika University assessment to assess the services provided to students in Universitas Dinamika. This project is related to my internship in pursuing my undergraduate B.Tech studies
         </p>`,
         tech: "Laravel 8, PHP, MySQL",
+        techStack: "website",
         image: [
             "https://www.dropbox.com/s/p0m1v3nx6cbckkr/Screenshot%202022-03-26%20061650.png?raw=1",
             "https://www.dropbox.com/s/qkqxhk70w4n9i7f/Screenshot%202022-03-26%20061545.png?raw=1",
@@ -104,6 +109,7 @@ const data = [
         overview: `<p>Mitra Building Store is an e-commerce development project for building materials using a webview display from an existing website and additional login and push notification features related to user accounts.
         </p>`,
         tech: "Webview Application, Firebase Cloud Messaging",
+        techStack: "android",
         image: ["https://www.dropbox.com/s/1ykd223j5j4wajr/MB%20STORE.png?raw=1"],
         roles: `<p>
         <ul>
@@ -125,6 +131,7 @@ const data = [
         overview: `<p>Si Dedi is an android application for early detection of diabetes using the Naive Bayes Classification (NBC) method based on several symptoms experienced by the user. This project is related to the decision support system course (SPK)
         using a classification system</p>`,
         tech: "Java, Retfrofit, Firebase Realtime Database (Article list)",
+        techStack: "android",
         image: [
             "https://www.dropbox.com/s/sq31nmtepcsyh13/banner_mobile.png?raw=1",
         ],
@@ -141,6 +148,7 @@ const data = [
         overview: `<p>Itung IP is a GPA Calculator that developed to help my college friends project their IP (Indeks Prestasi). Itung IP apps allow user to save their score then the apps will automatically generate their IP, and user data will synced across
         user google account.</p>`,
         tech: "Java, Firebase Auth (login with Google), Firebase Realtime Database (Store data), Firebase Cloud Messaging",
+        techStack: "android",
         image: [
             "https://www.dropbox.com/s/jiiuoy756h0y4w1/Artboard%20%E2%80%93%202.png?raw=1",
         ],
@@ -157,6 +165,7 @@ const data = [
         overview: `<p>BooKooKoo is an application to display a list and details of a book as well as a list of books relevant to the book. This is my first android application and is a submission of the dicoding course <b><a href="https://www.dicoding.com/academies/51">"Belajar Membuat Aplikasi Android untuk
         Pemula"</a></b>.</p>`,
         tech: "Java, RecyclerView",
+        techStack: "android",
         image: ["https://www.dropbox.com/s/f15vr8mp83wkci4/BooKooKoo.png?raw=1"],
         roles: "Android Developer",
         sneakPeak: `<p>See Repository at
@@ -171,6 +180,7 @@ const data = [
         year: "2019",
         overview: `<p>Katrol is a prototype of an online catering order application that helps you to order catering from various food catering services. The concept helps you busy workers or first-time users looking for online catering for your event</p>`,
         tech: "Adobe XD, Prototyping",
+        techStack: "design",
         image: ["https://www.dropbox.com/s/gnu91uhvdxwoxof/KATROL.png?raw=1"],
         roles: "UI / UX Designer",
         sneakPeak: `<p>Play prototype at
