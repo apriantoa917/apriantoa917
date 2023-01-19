@@ -78,13 +78,12 @@
             <!-- PROJECTS -->
             <p><span class="h3"><i class="bi-code-square"></i> PROJECT SHOWCASE</span> {Project Portfolios}</p>
             <p class="button-group-tech-stack">Filter Project :
-                <span class="button-brown my-1 button-tech-stack button-all" onclick="filterProjectType('all')"><i class="bi bi-boxes"></i>
+                <span class="button-brown my-1 button-tech-stack button-all" onclick="filterProjectType('all')"><i
+                        class="bi bi-boxes"></i>
                     All</span>
-                <span class="button-brown my-1 button-tech-stack button-android" onclick="filterProjectType('android')"><i
-                        class="bi bi-phone"></i>
+                <span class="button-brown my-1 button-tech-stack button-android" onclick="filterProjectType('android')"><i class="bi bi-phone"></i>
                     Android</span>
-                <span class="button-brown my-1 button-tech-stack button-website" onclick="filterProjectType('website')"><i
-                        class="bi bi-globe2"></i>
+                <span class="button-brown my-1 button-tech-stack button-website" onclick="filterProjectType('website')"><i class="bi bi-globe2"></i>
                     Website</span>
                 <span class="button-brown my-1 button-tech-stack button-design" onclick="filterProjectType('design')"><i
                         class="bi bi-pen"></i>
@@ -223,6 +222,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
+    <!-- FIREBASE ANALYTICS -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyB_-3D4akCusf9GyFqmyZUA2gyfVh_2jUI",
+        authDomain: "apriantoa917-github-io.firebaseapp.com", projectId: "apriantoa917-github-io", storageBucket: "apriantoa917-github-io.appspot.com", messagingSenderId: "955243995726", appId: "1:955243995726:web:a95ace4f472af8fe7b591f", measurementId:
+        "G-50ED6Q7K0J" }; const app = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>
