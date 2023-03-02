@@ -143,6 +143,7 @@
                 </div>
             </div>
         </div>
+
     </div>
     <!-- END OF MODAL PROJECT DESCRIPTION -->
 
@@ -155,10 +156,11 @@
             data.forEach(function(project, index) {
                 var techStack
                 const template = `<div class="col project-card ` + project.techStack + `">
-                    <div class="card h-100 card-focus">
+                    <div class="card h-100 card-focus" onclick="openModalProject('` + index + `')">
                         <div class="card-body">
                             <h5 class="card-title"> ` + project.title + ` (` + project.year + `) 
                             </h5>
+                            <center><img src="` + project.image[0] + `" alt="" loading="lazy"></center>
                             <p class="card-text">` + project.overview + `</p>
                             <button class="button-brown" onclick="openModalProject('` + index + `')"><i
                             class="bi bi-justify-left"></i>  View Details </button>

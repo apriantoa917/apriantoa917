@@ -20,6 +20,13 @@ body::-webkit-scrollbar-thumb {
     background-color: #ffffff;
 }
 
+#listProject .card img {
+    margin: 10px auto !important;
+    border-radius: 6px;
+    padding: 0% !important;
+    border: 1px solid #e2c69f8a !important;
+}
+
 .img-project {
     width: 100%;
     max-width: 500px;
@@ -58,7 +65,7 @@ ul>li>p>a {
 
 a {
     color: #794b0b;
-    cursor: pointer;
+    cursor: url('pointer.svg'), auto;
 }
 
 hr {
@@ -80,7 +87,6 @@ hr {
 }
 
 .card {
-    border: 2px solid #e2c69f !important;
     border-radius: 8px !important;
     background-color: #fff1e06b !important;
 }
@@ -95,7 +101,13 @@ hr {
 }
 
 .card-focus:hover {
-    transform: scale(1.02)
+    transform: scale(1.02);
+}
+
+.project-card .card-focus:hover {
+    transform: scale(1.02);
+    background-color: #fff8f0be !important;
+    cursor: url('pointer.svg'), auto;
 }
 
 .button-brown {
@@ -113,6 +125,7 @@ hr {
 .button-brown:hover {
     background-color: #583606;
     color: white;
+    cursor: url('pointer.svg'), auto;
 }
 
 .text-brown {
