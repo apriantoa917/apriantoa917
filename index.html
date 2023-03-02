@@ -33,7 +33,7 @@
             <!-- ABOUT -->
             <h3 class="h3"><i class="bi bi-person"></i> ABOUT ME</h3>
             <div class="row">
-                <div class="col-sm-8 mt-3">
+                <div class="col-sm-8">
                     <div class="h-100 card-focus" style="font-size:large; border: 2px solid #e2c69f !important; background-color: #fff1e06b; border-radius: 8px;">
                         <p class="p-3 ">
                             Hi 👋, I am Aprianto. <br> I’m Graduates Information Systems from <b><a
@@ -43,7 +43,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-sm-4 mt-3">
+                <div class="col-sm-4 mt-3 mb-3">
                     <div class="badge-base LI-profile-badge" data-locale="in_ID" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="apriantoa917" data-version="v1">
                         <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/apriantoa917?trk=profile-badge"></a>
                     </div>
@@ -53,13 +53,11 @@
 
             <!-- END OF ABOUT -->
 
-
             <hr>
-
 
             <!-- CONTACTS -->
             <p><span class="h3"><i class="bi bi-envelope"></i> CONTACTS</span> {Let's connect with me}</p>
-            <div class="p-3 card-focus" style="background-color: #fff1e06b; border-radius: 8px !important; border: 2px solid #e2c69f !important;">
+            <div class="p-3 card-focus mb-4" style="background-color: #fff1e06b; border-radius: 8px !important; border: 2px solid #e2c69f !important;">
                 <a href="https://github.com/apriantoa917"><span class="button-brown my-1"><i class="bi bi-github"></i>
                         Github</span></a>
                 <a href="https://linkedin.com/in/apriantoa917"><span class="button-brown my-1"><i
@@ -70,13 +68,12 @@
                         Email</span></a>
             </div>
             <!-- END OF CONTACTS -->
-
-
-            <hr>
-
-
+        </div>
+    </div>
+    <div class="container my-lg-5 container-glass mt-2">
+        <div class="container-fluid">
             <!-- PROJECTS -->
-            <p><span class="h3"><i class="bi-code-square"></i> PROJECT SHOWCASE</span> {Project Portfolios}</p>
+            <p><span class="h3 mt-4"><i class="bi-code-square"></i> PROJECT SHOWCASE</span> {Project Portfolios}</p>
             <p class="button-group-tech-stack">Filter Project :
                 <span class="button-brown my-1 button-tech-stack button-all" onclick="filterProjectType('all')"><i
                         class="bi bi-boxes"></i>
@@ -89,7 +86,7 @@
                         class="bi bi-pen"></i>
                     Design</span>
             </p>
-            <div id="listProject" class="row row-cols-1 row-cols-md-2 g-4"></div>
+            <div id="listProject" class="row row-cols-1 row-cols-md-3 g-4"></div>
             <!-- END OF PROJECTS -->
 
 
@@ -104,6 +101,8 @@
         <!-- END OF FOOTER -->
     </div>
 
+    <button class="btn-scroll-top" onclick="scrollToTop()"><i class="bi bi-arrow-up-circle-fill"></i></button>
+
     <!-- MODAL PROJECT DESCRIPTION -->
     <div class="modal fade" id="modalProject" tabindex="-1" aria-labelledby="modalProjectLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -113,32 +112,29 @@
                         <button type="button" class="btn-close m-3 p-3" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 0; right: 0;"></button>
                         <h4>Project Details</h4>
                         <hr>
-                        <div class="row">
-                            <div class="col-sm-7 mb-3">
-                                <h5 class="mb-3 w-100" id="modalProject-projectTitle">...</h5>
-                                <h6 style="font-weight: 700;">Overview</h6>
-                                <p id="modalProject-projectOverview">...</p>
-                                <h6 style="font-weight: 700;">Technology</h6>
-                                <p id="modalProject-projectTech">...</p>
-                                <h6 style="font-weight: 700;">Roles</h6>
-                                <p id="modalProject-projectRole">...</p>
-                                <h6 style="font-weight: 700;">Sneak Peek</h6>
-                                <p id="modalProject-projectSneakPeak">...</p>
+                        <center>
+                            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="max-width: 700px;">
+                                <div class="carousel-inner" id="modalProject-projectImage"></div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
                             </div>
-                            <div class="col-sm-5">
-                                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="max-width: 500px;">
-                                    <div class="carousel-inner" id="modalProject-projectImage"></div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        </center>
+                        <br>
+                        <h5 class="mb-3 w-100" id="modalProject-projectTitle">...</h5>
+                        <h6 style="font-weight: 700;">Overview</h6>
+                        <p id="modalProject-projectOverview">...</p>
+                        <h6 style="font-weight: 700;">Technology</h6>
+                        <p id="modalProject-projectTech">...</p>
+                        <h6 style="font-weight: 700;">Roles</h6>
+                        <p id="modalProject-projectRole">...</p>
+                        <h6 style="font-weight: 700;">Sneak Peek</h6>
+                        <p id="modalProject-projectSneakPeak">...</p>
                     </div>
                 </div>
             </div>
@@ -155,6 +151,10 @@
             // after page reload -> reload all project data from js data file
             data.forEach(function(project, index) {
                 var techStack
+
+                // artifact for button view -> now not using button but just click the body
+                // <button class="button-brown" onclick="openModalProject('` + index + `')"><i class="bi bi-justify-left"></i>  View Details </button>
+
                 const template = `<div class="col project-card ` + project.techStack + `">
                     <div class="card h-100 card-focus" onclick="openModalProject('` + index + `')">
                         <div class="card-body">
@@ -162,8 +162,6 @@
                             </h5>
                             <center><img src="` + project.image[0] + `" alt="" loading="lazy"></center>
                             <p class="card-text">` + project.overview + `</p>
-                            <button class="button-brown" onclick="openModalProject('` + index + `')"><i
-                            class="bi bi-justify-left"></i>  View Details </button>
                         </div>
                     </div>
                 </div>`
@@ -210,6 +208,41 @@
             $(".button-group-tech-stack .button-" + projectStack).addClass("active")
 
         }
+
+        // parsing project id on url hash (#) to open modal by it's index
+        function getProjectIndexById(projectId) {
+            var index = 0
+            for (var i = 0; i < data.length; i++) {
+                // Check if the child value matches the search value
+                if (data[i].projectId === projectId) {
+                    // If a match is found, return the index of the element
+                    index = i
+                    break;
+                }
+            }
+            return index
+        }
+
+        // scroll screen to top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+
+        $(document).ready(function() {
+
+            // when document ready, if url has project id parameter -> open modal project detail
+            var currentUrl = window.location.href
+            var searchParams = new URLSearchParams(currentUrl.split('?')[1])
+            var projectId = searchParams.get('project');
+            // if project id not null -> open modal
+            if (projectId != null) {
+                var projectIndex = getProjectIndexById(projectId)
+                openModalProject(projectIndex)
+            }
+        });
     </script>
 
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>

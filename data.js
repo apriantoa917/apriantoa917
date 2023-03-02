@@ -14,9 +14,9 @@ const data = [
     // },
     {
         projectId: "insul-in",
-        title: "Insul.in : Early Diabetes Detection Apps - Bangkit Academy 2022 Capstone Project",
+        title: "Insul.in : Early Diabetes Detection Apps",
         year: "2022",
-        overview: `<p>Insul.in is Developed apps made by Bangkit Academy 2022 Team to give impact on Medical Issue. In Insul.in you can check initial screening of the potential risk of Diabetes with answering several question (combined with Machine Learning) to prevents worst condition based the result.
+        overview: `<p class="project-overview-text">Insul.in is Developed apps made by Bangkit Academy 2022 Team to give impact on Medical Issue. In Insul.in you can check initial screening of the potential risk of Diabetes with answering several question (combined with Machine Learning) to prevents worst condition based the result.
     </p>`,
         tech: "Kotlin, MVVM, Firebase, Google Maps API, Lottie Files, Retrofit, Google Console Project",
         techStack: "android",
@@ -32,9 +32,9 @@ const data = [
     },
     {
         projectId: "picnicker-food-voucher",
-        title: "UI UX Design - Picnicker : Culinary Voucher Apps",
+        title: "Picnicker : Culinary Voucher Apps",
         year: "2022",
-        overview: `<p>Picnicker is a prototype application for culinary vouchers that helps users to find various food promos and makes it easier for them to buy culinary vouchers online. This project is related to Dicoding Course
+        overview: `<p class="project-overview-text">Picnicker is a prototype application for culinary vouchers that helps users to find various food promos and makes it easier for them to buy culinary vouchers online. This project is related to Dicoding Course
         <b><a href="https://www.dicoding.com/academies/335">"Belajar Dasar UX Design"</a></b> as final submission
     </p>`,
         tech: "Figma, Prototyping, UX Research",
@@ -52,9 +52,9 @@ const data = [
     },
     {
         projectId: "dico-story",
-        title: "Android - Dico Story : Dicoding User Story",
+        title: "Dico Story : Dicoding User Story",
         year: "2022",
-        overview: `<p>Dico Story is an Dicoding's social media applications. You can create account then use the app for share your moments on application, you also can get the latest story (updates) from another user. This project is related to Dicoding Course
+        overview: `<p class="project-overview-text">Dico Story is an Dicoding's social media applications. You can create account then use the app for share your moments on application, you also can get the latest story (updates) from another user. This project is related to Dicoding Course
         <b><a href="https://www.dicoding.com/academies/352">"Belajar Pengembangan Aplikasi Android
                 Intermediate"</a></b> as final submission</p>`,
         tech: "Kotlin, Retrofit2 Library, Remote Mediator & Paging3 (Offline-Online Mechanism & Infinite Scroll data, like instagram), LottieFiles (Animation), Google Maps API",
@@ -68,9 +68,9 @@ const data = [
     },
     {
         projectId: "my-github",
-        title: "Android - My Github : Github User Search Apps",
+        title: "My Github : Github User Search Apps",
         year: "2022",
-        overview: `<p>My Github is a github user search app developed using Github API to retrieve user search & user info details. In app you can like specific user locally & you can change theme appereance. This project is related to Dicoding Course <b><a href="https://www.dicoding.com/academies/14">"Belajar
+        overview: `<p class="project-overview-text">My Github is a github user search app developed using Github API to retrieve user search & user info details. In app you can like specific user locally & you can change theme appereance. This project is related to Dicoding Course <b><a href="https://www.dicoding.com/academies/14">"Belajar
         Fundamental Aplikasi Android (BFAA)"</a></b> as final submission</p>`,
         tech: "Kotlin, Retrofit2 Library, Room Database (liked user), Data Store (theme appereance)",
         techStack: "android",
@@ -83,9 +83,9 @@ const data = [
     },
     {
         projectId: "angket-aak",
-        title: "Website - Angket AAK : Academic Service (BAAK) assessment website",
+        title: "Angket AAK : Academic Service (BAAK) assessment website",
         year: "2021",
-        overview: `<p>Angket is a website for the BAAK Dinamika University assessment to assess the services provided to students in Universitas Dinamika. This project is related to my internship in pursuing my undergraduate B.Tech studies
+        overview: `<p class="project-overview-text">Angket is a website for the BAAK Dinamika University assessment to assess the services provided to students in Universitas Dinamika. This project is related to my internship in pursuing my undergraduate B.Tech studies
         </p>`,
         tech: "Laravel 8, PHP, MySQL",
         techStack: "website",
@@ -104,9 +104,9 @@ const data = [
     },
     {
         projectId: "mb-store-apps",
-        title: "Android - Mitra Bangunan Store : E-commerce building materials",
+        title: "Mitra Bangunan Store : E-commerce building materials",
         year: "2021",
-        overview: `<p>Mitra Building Store is an e-commerce development project for building materials using a webview display from an existing website and additional login and push notification features related to user accounts.
+        overview: `<p class="project-overview-text">Mitra Building Store is an e-commerce development project for building materials using a webview display from an existing website and additional login and push notification features related to user accounts.
         </p>`,
         tech: "Webview Application, Firebase Cloud Messaging",
         techStack: "android",
@@ -126,9 +126,9 @@ const data = [
     },
     {
         projectId: "sidedi",
-        title: "Android - Si Dedi : Sistem Informasi Deteksi dini Diabetes",
+        title: "Si Dedi : Sistem Informasi Deteksi dini Diabetes",
         year: "2020",
-        overview: `<p>Si Dedi is an android application for early detection of diabetes using the Naive Bayes Classification (NBC) method based on several symptoms experienced by the user. This project is related to the decision support system course (SPK)
+        overview: `<p class="project-overview-text">Si Dedi is an android application for early detection of diabetes using the Naive Bayes Classification (NBC) method based on several symptoms experienced by the user. This project is related to the decision support system course (SPK)
         using a classification system</p>`,
         tech: "Java, Retfrofit, Firebase Realtime Database (Article list)",
         techStack: "android",
@@ -143,9 +143,9 @@ const data = [
     },
     {
         projectId: "itung-ip",
-        title: "Android - Itung IP: GPA Calculator",
+        title: "Itung IP: GPA Calculator",
         year: "2020",
-        overview: `<p>Itung IP is a GPA Calculator that developed to help my college friends project their IP (Indeks Prestasi). Itung IP apps allow user to save their score then the apps will automatically generate their IP, and user data will synced across
+        overview: `<p class="project-overview-text">Itung IP is a GPA Calculator that developed to help my college friends project their IP (Indeks Prestasi). Itung IP apps allow user to save their score then the apps will automatically generate their IP, and user data will synced across
         user google account.</p>`,
         tech: "Java, Firebase Auth (login with Google), Firebase Realtime Database (Store data), Firebase Cloud Messaging",
         techStack: "android",
@@ -160,9 +160,9 @@ const data = [
     },
     {
         projectId: "bookookoo",
-        title: "Android - BooKooKoo : Bookstore Preview Android Apps",
+        title: "BooKooKoo : Bookstore Preview Android Apps",
         year: "2019",
-        overview: `<p>BooKooKoo is an application to display a list and details of a book as well as a list of books relevant to the book. This is my first android application and is a submission of the dicoding course <b><a href="https://www.dicoding.com/academies/51">"Belajar Membuat Aplikasi Android untuk
+        overview: `<p class="project-overview-text">BooKooKoo is an application to display a list and details of a book as well as a list of books relevant to the book. This is my first android application and is a submission of the dicoding course <b><a href="https://www.dicoding.com/academies/51">"Belajar Membuat Aplikasi Android untuk
         Pemula"</a></b>.</p>`,
         tech: "Java, RecyclerView",
         techStack: "android",
@@ -175,10 +175,9 @@ const data = [
     },
     {
         projectId: "katrol",
-        title: `<h5>UI UX Design - Katrol : <span style="font-weight: 900; text-decoration: underline;">KAT</span>eRing <span style="font-weight: 900;text-decoration: underline">O</span>n<span style="font-weight: 900;text-decoration: underline">L</span>ine
-        (Online Food Catering)</h5>`,
+        title: `Katrol : <span style="font-weight: 900; text-decoration: underline;">KAT</span>eRing <span style="font-weight: 900;text-decoration: underline">O</span>n<span style="font-weight: 900;text-decoration: underline">L</span>ine (Online Food Catering)`,
         year: "2019",
-        overview: `<p>Katrol is a prototype of an online catering order application that helps you to order catering from various food catering services. The concept helps you busy workers or first-time users looking for online catering for your event</p>`,
+        overview: `<p class="project-overview-text">Katrol is a prototype of an online catering order application that helps you to order catering from various food catering services. The concept helps you busy workers or first-time users looking for online catering for your event</p>`,
         tech: "Adobe XD, Prototyping",
         techStack: "design",
         image: ["https://www.dropbox.com/s/gnu91uhvdxwoxof/KATROL.png?raw=1"],
