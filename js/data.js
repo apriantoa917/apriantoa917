@@ -22,8 +22,10 @@ const data = [
         techStack: "android",
         thumbnail: "https://firebasestorage.googleapis.com/v0/b/apriantosi.appspot.com/o/apriantoa917.github.io%2Fprojects%2Finsul-in%2Fthumbnail.jpg?alt=media&token=e999f937-0ed6-4917-9764-91df9d015785",
         image: [
-            "https://user-images.githubusercontent.com/47800225/173065444-e2e1636f-5052-40b2-b204-d85d8bca50fd.png",
-            "https://user-images.githubusercontent.com/47800225/173065409-04795ac4-583c-437f-afb5-e9a0189a9d9a.png",
+            "https://firebasestorage.googleapis.com/v0/b/apriantosi.appspot.com/o/apriantoa917.github.io%2Fprojects%2Finsul-in%2Fcover.jpg?alt=media&token=48871ec9-36a8-4097-8d35-ac794d19c069",
+            "https://firebasestorage.googleapis.com/v0/b/apriantosi.appspot.com/o/apriantoa917.github.io%2Fprojects%2Finsul-in%2F1.jpg?alt=media&token=a76187cc-310d-403d-b9e5-044a0ce3c8cb",
+            "https://firebasestorage.googleapis.com/v0/b/apriantosi.appspot.com/o/apriantoa917.github.io%2Fprojects%2Finsul-in%2F2.jpg?alt=media&token=be40e8dd-36ca-4617-a7a5-bc45b7bac0a6",
+            "https://firebasestorage.googleapis.com/v0/b/apriantosi.appspot.com/o/apriantoa917.github.io%2Fprojects%2Finsul-in%2F3.jpg?alt=media&token=624949bf-202a-4cdc-b34f-4239fb0fd794",
         ],
         roles: "Android Developer",
         sneakPeak: `<p>See Repository at
