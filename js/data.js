@@ -5,6 +5,8 @@ const data = [
     //     year: "2022",
     //     overview: "...",
     //     tech: "Kotlin, MVVM, Clean-Architecture, Dependency Injection",
+    //     techStack: "",
+    //     thumbnail:"",
     //     image: [
     //         "...",
     //         "..."
@@ -200,17 +202,4 @@ const data = [
             Adobe XD</a>
     </p>`,
     },
-    // {
-    //     projectId: "...",
-    //     title: "...",
-    //     year: "...",
-    //     overview: "...",
-    //     tech: "...",
-    //     image: [
-    //         "...",
-    //         "..."
-    //     ],
-    //     roles: "...",
-    //     sneakPeak: "...",
-    // },
 ];

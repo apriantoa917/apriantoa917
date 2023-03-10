@@ -19,7 +19,6 @@ body {
     background-image: url('../assets/background.svg');
     background-size: cover;
     background-attachment: fixed;
-    background-size: cover;
     cursor: url('../assets/cursor.svg'), auto;
 }
 
@@ -44,10 +43,16 @@ body::-webkit-scrollbar-thumb {
 
 #pronounce-name {
     background-color: var(--dark-color);
-    border-radius: 100%;
-    padding: 2px 3px;
-    font-size: medium;
+    color: white;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 50%;
     margin-left: 10px;
+    font-size: medium;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #pronounce-name:hover {
@@ -70,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 
 .img-project {
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     border-radius: 10px;
     background-color: #ffffff;
 }
@@ -316,8 +321,15 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        background-size: contain;
+    }
     .container-glass {
-        background: rgba(255, 255, 255, 0.6);
-        border-radius: 0px !important;
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 10px !important;
+        margin-bottom: 10px;
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
     }
 }

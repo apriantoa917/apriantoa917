@@ -23,17 +23,17 @@
                         <img src="assets/notion-avatar.svg" class="img-avatar">
                     </div>
 
-                    <p class="mb-1"><span class="profile-name h2 mb-0">APRIANTO</span> (Apri) <span id="pronounce-name"> 🔊 </span></p>
+                    <p class="mb-1"><span class="profile-name h2 mb-0">APRIANTO</span> [ Apri ] <span id="pronounce-name" data-toggle="tooltip" data-placement="top" title="Click to pronounce my name"> <i class="bi bi-megaphone-fill"></i></span></p>
                     <i class="bi bi-geo-alt"></i> <b>Surabaya</b>, Indonesia 🇮🇩
                     <h3 class="mt-4">☎️ Contacts</h3>
                     <ul style="list-style: none;margin-left: 12px;line-height: 1.7;">
-                        <li><a href="https://github.com/apriantoa917"><span><i class="bi bi-github"></i>
+                        <li><a href="https://github.com/apriantoa917" target="_blank"><span><i class="bi bi-github"></i>
                                     Github</span></a></li>
-                        <li><a href="https://linkedin.com/in/apriantoa917"><span><i class="bi bi-linkedin"></i>
+                        <li><a href="https://linkedin.com/in/apriantoa917" target="_blank"><span><i class="bi bi-linkedin"></i>
                                     Linkedin</span></a></li>
-                        <li><a href="mailto:work.aprianto@gmail.com"><span><i class="bi bi-envelope-fill"></i>
+                        <li><a href="mailto:work.aprianto@gmail.com" target="_blank"><span><i class="bi bi-envelope-fill"></i>
                                     Email</span></a></li>
-                        <li><a href="files/resume-aprianto.pdf" target="_blank"><span><i class="bi bi-file-earmark-pdf-fill"></i> Resume</a></span>
+                        <li><a data-bs-toggle="modal" href="#modalResume" role="button"><span><i class="bi bi-file-earmark-pdf-fill"></i> Resume</a></span>
                         </li>
                     </ul>
                 </div>
@@ -86,7 +86,7 @@
 
     <!-- MODAL PROJECT DESCRIPTION -->
     <div class="modal fade" id="modalProject" tabindex="-1" aria-labelledby="modalProjectLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="container py-2">
@@ -120,9 +120,28 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- END OF MODAL PROJECT DESCRIPTION -->
+
+    <!-- MODAL RESUME -->
+    <div class="modal fade" id="modalResume" tabindex="-1" aria-labelledby="modalProjectLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container py-2">
+                        <button type="button" class="btn-close m-3 p-3" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 0; right: 0;"></button>
+                        <h4>📄 Resume</h4>
+                        <hr>
+                        <object data="files/resume-aprianto.pdf" type="application/pdf" width="100%" height="600px">
+                            <p>Click this link if the PDF doesn't appear <a href="files/resume-aprianto.pdf" target="_blank">View my resume</a></p>
+                        </object>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF MODAL RESUME -->
 
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="js/data.js"></script>
@@ -151,6 +170,9 @@
                 var audio = new Audio("./files/notification_sound.mp3");
                 audio.play();
             });
+
+            // enable tooltip
+            $('[data-toggle="tooltip"]').tooltip();
         });
     </script>
 
