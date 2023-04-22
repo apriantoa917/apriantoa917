@@ -5,8 +5,16 @@
     --light-color: #9fb4e28a;
     --dark-color: #00327c;
     --background-light-color: #ffffff6b;
-    --background-light-color-focus: #f2fbffb2;
+    --background-light-color-focus: #ffffffcb;
     --background-light-color-glass: #ffffffb7;
+}
+
+.bg-light-blue {
+    background-color: var(--primary-color);
+}
+
+.text-dark-blue {
+    color: var(--dark-color) !important;
 }
 
 body {
@@ -101,7 +109,11 @@ body::-webkit-scrollbar-thumb {
 
 h1,
 h2,
-h3,
+h3 {
+    color: black !important;
+    font-weight: 600;
+}
+
 h4 {
     color: black !important;
     font-weight: 600;
@@ -273,6 +285,16 @@ span {
 
 .btn-scroll-top:hover {
     cursor: url('../assets/pointer.svg'), auto;
+}
+
+.bg-primary {
+    background-color: var(--dark-color) !important;
+    color: white;
+}
+
+.bg-primary:hover {
+    background-color: var(--primary-color) !important;
+    color: var(--dark-color);
 }
 
 
